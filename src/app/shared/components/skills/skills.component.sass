@@ -1,0 +1,45 @@
+.skills
+  margin-top: -14rem
+  margin-bottom: 4rem
+
+  &__wrap
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #b0bedb
+    border-radius: 12px
+
+  &__column
+    background: white
+    padding: 100px 45px
+    mat-icon
+      color: #2b55ff
+      margin: 30px
+
+    ul
+      list-style-type: none
+      margin: 0
+      padding: 0
+      text-align: center
+
+    &:first-child
+      border-right: 1px solid #b0bedb
+      border-top-left-radius: 12px
+      border-bottom-left-radius: 12px
+
+    &:last-child
+      border-top-right-radius: 12px
+      border-bottom-right-radius: 12px
+
+  @media (max-width: 768px)
+
+    &__column
+
+      &:first-child
+        border-right: none
+        border-bottom: 1px solid #b0bedb
+        border-top-left-radius: 12px
+        border-top-right-radius: 12px
+        border-bottom-left-radius: 0
+
+      &:last-child
+        border-top-right-radius: 0
+        border-bottom-left-radius: 12px
+        border-bottom-right-radius: 12px
