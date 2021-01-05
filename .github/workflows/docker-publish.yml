@@ -60,5 +60,5 @@ jobs:
         with:
           push: true # Will only build if this is not here
           tags: |
-            ghcr.io/${{ github.repository }}:${{ github.sha }}
-            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/devbaier/danielbaier.ch:${{ github.sha }}
+            ghcr.io/devbaier/danielbaier.ch:latest
