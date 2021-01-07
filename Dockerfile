@@ -14,7 +14,7 @@ FROM nginx:latest
 
 LABEL traefik.enable=true
 LABEL traefik.http.routers.website.entrypoints=https
-LABEL traefik.http.routers.website.rule=Host(`danielbaier.ch`))
+LABEL traefik.http.routers.website.rule=Host(`danielbaier.ch`)
 LABEL traefik.http.routers.website.tls=true
 LABEL traefik.http.services.website.loadbalancer.server.port=4200
 
